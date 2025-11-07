@@ -108,7 +108,7 @@ def evaluate_model(model_name, result_root="result"):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, required=True, help="model name folder under result")
-    parser.add_argument("--result_root", type=str, default="/mnt/ali-sh-1/dataset/redone/mengzijie/Agent/result", help="result path")
+    parser.add_argument("--result_root", type=str, help="result path")
     args = parser.parse_args()
 
     evaluate_model(args.model_name, args.result_root)
