@@ -1,10 +1,9 @@
 # EComStage
 
-This repository contains the supplementary materials for our paper:
-"Stage-wise and Orientation-specific Benchmarking of LLM-based Agents in E-commerce".
+This repository contains the codes and data for our paper:
+"EComStage: Stage-wise and Orientation-specific Benchmarking for E-commerce Customer Service".
 
-~~Data and codes are currently under internal company review and will be uploaded once it is finished. (before the conference's review process ends)~~
-
+~~Data and codes are currently under internal company review and will be uploaded once it is finished.~~
 
 Data is now available. One can refer to `filtered_data.json` for reproduction.
 
