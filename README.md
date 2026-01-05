@@ -1,14 +1,14 @@
 # EComStage
 
 This repository contains the codes and data for our paper:
-"EComStage: Stage-wise and Orientation-specific Benchmarking for E-commerce Customer Service".
+"EComStage: Stage-wise and Orientation-specific Benchmarking for Large Language Models in E-commerce".
 
 ~~Data and codes are currently under internal company review and will be uploaded once it is finished.~~
 
 Data is now available. One can refer to `filtered_data.json` for reproduction.
 
 ### TLDR
-EComstage is a stage-wise evaluation framework for LLM-based agents in e-commerce scenarios. Instead of directly judging whether the agent successfully completes the final task, EComStage decomposes the reasoning process into separate, stage-specific tasks, each designed to evaluate a distinct capability of the agent.  
+EComstage is a stage-wise evaluation framework for LLMs that serve as the backbone for e-commerce agents. Instead of directly judging whether the agent successfully completes the final task, EComStage decomposes the reasoning process into separate, stage-specific tasks, each designed to evaluate a distinct capability of the agent-capable LLM.  
 
 
 ### Released Data Description
