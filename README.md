@@ -39,6 +39,8 @@ Data Structure:
 
 Note that for Query Match and Solution Decision, human annotators provide pre-defined question lists and response options tailored to each data sample.
 
+For RAG-QA, we plan to release an anonymized version of our data base. Currently, the referenced knowledge is replaced with a placeholder.
+
 ### Response generation
 We do not restrict any generation methods. You can use models from Huggingface or API to generate results, given the system prompts and data samples in `filtered_data.json`. However, we suggest you to save the generation results in the following structure for smooth evaluation:
 
@@ -65,7 +67,7 @@ We do not restrict any generation methods. You can use models from Huggingface o
 
 
 ### Evaluation
-Codes for evaluation is provided in `evaluation.py`.
+Codes for objective evaluation (accuracy, embedding) is provided in `evaluation.py`.
 
 Before evaluation, we expect you have prepared the result folder in which each model's generation results are under its corresponding model name folder. In our case, we split data into several sub json for simultaneous generation (acceleration), which is not necessary for all cases:
 ```
@@ -78,6 +80,10 @@ Before evaluation, we expect you have prepared the result folder in which each m
       │     ├── data0.json
       │     └── ...
 ```
+
+Codes for subjective evaluation (llm-as-a-judge) is provided in `result_eval_llmasajudge.py`. We use vLLM and Qwen3-235B-A22B-Instruct-2507 in our implementation. You can use other models with minimum modification.
+
+
 If you follow our instructions, you can smoothly start evaluation.
 
   
