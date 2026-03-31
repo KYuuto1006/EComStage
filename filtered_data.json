@@ -950,7 +950,7 @@
     "conversations": [
       {
         "from": "human",
-        "value": "How come the refund hasn't arrived yet?\n\nC. Why hasn't the refund arrived?"
+        "value": "How come the refund hasn't arrived yet?\n\nPlease select the most appropriate standard question:\nA. How to claim reimbursement for return/exchange shipping fees? B. How to expedite processing? C. Why hasn't the refund arrived? D. How to upload logistics tracking number for returns/exchanges? E. How to post a photo review?"
       },
       {
         "from": "gpt",
@@ -1654,7 +1654,7 @@
     "conversations": [
       {
         "from": "human",
-        "value": "C. Does the new user platform offer coupons?"
+        "value": "User Question: Can I have coupons if I use this new platform? .\n\nPlease select the most matching standard question:\nA. What if the courier does not deliver to the specified address?  \nB. How to handle if the merchant refuses to send a free gift?  \nC. Does the new user platform offer coupons?  \nD. How to remove items from the shopping cart?  \nE. How to handle if the seller refuses to issue an invoice?"
       },
       {
         "from": "gpt",
